@@ -1,0 +1,29 @@
+#include <stdio.h>
+int main() 
+{
+    int time;
+    printf("Enter the time \r\n");
+    scanf("%d",&time);
+    
+    if(time>1 && time<=10)
+    {
+        printf("good morning");
+    }
+    else if(time>10 && time<=15)
+    {
+        printf("Good afternoon");
+    }
+    else if(time>15 && time<=20)
+    {
+        printf("good evening");
+    }
+    else if(time>20 && time<=24)
+    {
+        printf("good nyt");
+    }
+    else
+    {
+        printf("time is invalid");
+    }
+    return 0;
+}
